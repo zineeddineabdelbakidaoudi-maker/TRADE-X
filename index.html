@@ -1,0 +1,11 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TRADE X – Import Manager for Algerian SMEs</title><link rel="stylesheet" href="css/style.css"></head><body>
+<div id="auth"><div class="auth-art"><div class="fl f1"><span>Landed cost</span><b>5 243 097 DA</b></div><div class="fl f2"><span>Expected margin</span><b style="color:#5eead4">+37.6%</b></div><div class="fl f3">⛔ Commercial invoice missing</div><div class="logo big"><b>TRADE</b><i>X</i></div><h1>Know your real import cost before you buy.</h1><p>Landed cost, documents and deal tracking for Algerian importers, in one workspace.</p><ul><li>Customs, TVA, freight and insurance in one estimate</li><li>Every document attached to its deal</li><li>Alerts built from your own deal data</li></ul></div>
+<div class="auth-box"><h2 id="atitle">Sign in</h2><p class="muted" id="asub">Access your company workspace</p>
+<div id="reg" hidden><label>Company name<input value="El Amine Import SARL"></label></div>
+<label>Email<input id="em" value="karim@elamine-import.dz"></label><label>Password<input type="password" value="demo1234"></label>
+<button class="btn" id="go">Sign in</button><button class="btn red" onclick="startTour()">▶ Start guided demo scenario</button><button class="btn ghost" id="sw">Create an account</button><a href="#" class="muted sm" id="fp">Forgot password?</a><p class="note">Prototype v0.1 – demo data only.</p></div></div>
+<div id="app" hidden><aside id="side"><div class="logo"><b>TRADE</b><i>X</i></div><nav id="nav"></nav><button class="btn demo" onclick="startTour()">▶ Guided demo</button><div class="co" id="co"></div></aside>
+<main><header><button id="burger" class="icon">☰</button><div><div class="muted sm" id="crumb"></div><h1 id="ptitle"></h1></div><input id="gs" placeholder="Search deals…"><button class="icon bell" id="bell">🔔<span id="cnt"></span></button><div class="avatar" id="av"></div></header>
+<div id="drop" class="drop" hidden></div><section id="view"></section></main></div><div id="tour" hidden></div><div id="toast"></div>
+<script src="data/db.js"></script><script src="js/app.js"></script></body></html>
